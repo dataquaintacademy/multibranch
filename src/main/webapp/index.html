@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arithmetic Calculator</title>
+</head>
+<body>
+<main>
+    <h1>Arithmetic Calculator</h1>
+    <form action="calculator" method="post">
+        <p>
+            <label for="left">First number</label>
+            <input id="left" name="left" type="number" step="any" required>
+        </p>
+        <p>
+            <label for="operator">Operation</label>
+            <select id="operator" name="operator">
+                <option value="add">Add (+)</option>
+                <option value="subtract">Subtract (−)</option>
+                <option value="multiply">Multiply (×)</option>
+                <option value="divide">Divide (÷)</option>
+            </select>
+        </p>
+        <p>
+            <label for="right">Second number</label>
+            <input id="right" name="right" type="number" step="any" required>
+        </p>
+        <button type="submit">Calculate</button>
+    </form>
+</main>
+</body>
+</html>
