@@ -1,6 +1,6 @@
 # Arithmetic Calculator
 
-A Java 11 Maven web application that provides a browser-based calculator for
+A Java 8+ Maven web application that provides a browser-based calculator for
 addition, subtraction, multiplication, and division.
 
 ## Build and test

@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
+                sh 'java -version; mvn -version'
                 sh 'mvn -B -DskipTests compile'
             }
         }
