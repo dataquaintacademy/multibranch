@@ -1,6 +1,9 @@
 pipeline {
     agent any
-
+tools {
+    maven 'maven10'
+    jdk 'java25'
+}
     stages {
         stage('Compile') {
             steps {
